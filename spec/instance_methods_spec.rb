@@ -1,3 +1,6 @@
+require 'spec_helper.rb'
+require_relative '../lib/dog.rb'
+
 describe 'Dog' do
   it 'is defined within lib/dog.rb' do
     expect(defined?(Dog)).to be_truthy
